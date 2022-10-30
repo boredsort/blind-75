@@ -1,6 +1,6 @@
 class Solution:
 
-    def twoSum(self, nums: list[int], target: int) -> list[int]:
+    def twoum(self, nums: list[int], target: int) -> list[int]:
         
         temp = {}
 
@@ -12,8 +12,3 @@ class Solution:
             temp[n] = i
 
 
-
-s = Solution()
-nimal = [1,4]
-sol = s.twoSum(nimal, 5)
-print(sol)
